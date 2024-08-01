@@ -1,0 +1,63 @@
+body{
+    min-height: 100vh;
+    background: url('login.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+*{
+   font-family:sans-serif;
+    box-sizing:border-box;
+}
+form{
+    width: 45vw;
+    border: 2px solid #ccc;
+    padding: 40px;
+    background: #fff;
+    border-radius: 15px;
+    position: relative;
+    height: 77vh;
+    left: 42vw;
+    top: 16vh
+}
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgba(73, 162, 234, 0.548);
+    
+}
+input{
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 12px;
+    margin: -16px auto;
+    border-radius: 12px;
+}
+p{
+    color:#888;
+    font-size:18px;
+    padding:10px;
+}
+button{
+    float: right;
+    background: rgba(73, 162, 234, 0.548);
+    padding: 10px 135px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 6vw;
+    border: none;
+    margin-top: 20px;
+}
+
+button:hover{
+    opacity: .7;
+}
+.error{
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
